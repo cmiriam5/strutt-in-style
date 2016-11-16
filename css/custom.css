@@ -1,5 +1,3 @@
-
-
 * { padding: 0; margin: 0; }
 body { font-family: sans-serif; }
 a { text-decoration: none; color: #00A5CC; }
@@ -257,7 +255,7 @@ button.imgbutton {
     }
 
     .footer-distributed{
-    background-color: #292c2f;
+    background-color: #000;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
@@ -277,11 +275,11 @@ button.imgbutton {
 /* Footer links */
 
 .footer-distributed p.footer-links{
-    font-size:18px;
+    font-size:15px;
     font-weight: bold;
     color:  #ffffff;
-    margin: 0 0 10px;
-    padding: 0;
+    margin: 0  0 10px;
+    padding-bottom: 10px;
 }
 
 .footer-distributed p.footer-links a{
@@ -289,11 +287,14 @@ button.imgbutton {
     line-height: 1.8;
     text-decoration: none;
     color:  inherit;
+    background: black;
+    margin-top: -5px;
+
 }
 
 .footer-distributed .footer-right{
     float: right;
-    margin-top: 6px;
+    margin-top: 0px;
     max-width: 180px;
 }
 
@@ -301,30 +302,22 @@ button.imgbutton {
     display: inline-block;
     width: 35px;
     height: 35px;
-    background-color:  #33383b;
+    background-color:  #000;
     border-radius: 2px;
 
     font-size: 20px;
     color: #ffffff;
     text-align: center;
     line-height: 35px;
-
     margin-left: 3px;
+  
 }
 
-
-body > .container {
-    padding: 60px 15px 0;
+.footer-distributed .footer-right a img{
+  margin: -10px;
+  margin-left: 3px;
 }
 
-.container .text-muted {
-    margin: 20px 0;
-}
-
-.footer > .container {
-    padding-left:15px;
-    padding-right:15px;
-}
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 600px) {
@@ -340,7 +333,24 @@ body > .container {
     }
 
     .footer-distributed .footer-left p.footer-links{
+
         line-height: 1.8;
+        
     }
+
+
+.footer-distributed .footer-right a {
+    display: inline;
+    width: 35px;
+    height: 35px;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 3px;
+
 }
+
 
